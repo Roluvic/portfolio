@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connect with Paul-Henri Cuvelier for speaking engagements, collaborations, podcast appearances, or meaningful conversations about wine, business, and potential.">
+    <meta name="keywords" content="contact Paul-Henri, speaking engagements, collaboration, wine consultant, business mentor">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paulhenricuvelier.com/contact.html">
+    <meta property="og:title" content="Contact Paul-Henri Cuvelier - Let's Connect">
+    <meta property="og:description" content="Connect for speaking engagements, collaborations, podcast appearances, or meaningful conversations about wine, business, and potential.">
+    <meta property="og:image" content="https://paulhenricuvelier.com/assets/images/paul-henri-contact.jpg">
+
+    <title>Contact Paul-Henri - Let's Connect and Collaborate</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-text">Paul-Henri Cuvelier</a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="wtfiph.html" class="nav-link">WTFIPH</a>
+                <a href="podcast.html" class="nav-link">Podcasts</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Projects</a>
+                    <div class="dropdown-menu">
+                        <a href="paul-de-pierre.html" class="dropdown-link">Paul de Pierre</a>
+                        <a href="nova.html" class="dropdown-link">N.O.V.A.</a>
+                        <a href="virtual-school.html" class="dropdown-link">Virtual School</a>
+                        <a href="wineshop.html" class="dropdown-link">Wine Shop</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="book.html" class="dropdown-link">Book Speaking</a>
+                        <a href="podcast-container.html" class="dropdown-link">Podcast Container</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            
+            <a href="book.html" class="btn btn-primary nav-cta">Book Now</a>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">Let's Connect</h1>
+                <p class="hero-description animate-fade-in delay-1">
+                    I believe in the power of meaningful connections. Whether you're interested in collaborating on a project, 
+                    exploring wine together, or simply having a conversation that matters, I'd love to hear from you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details animate-slide-up">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:paulhenri@pauldepierre.com" class="contact-email">paulhenri@pauldepierre.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>Response Time</h3>
+                        <p>I personally read and respond to all messages. While I can't respond to everything immediately, I typically reply within 48 hours. For urgent matters, please mention "URGENT" in your subject line.</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>Best For</h3>
+                        <ul>
+                            <li>Speaking engagement inquiries</li>
+                            <li>Business collaboration discussions</li>
+                            <li>Podcast guest applications</li>
+                            <li>Wine consultation requests</li>
+                            <li>Mentoring opportunities</li>
+                            <li>Media and interview requests</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container animate-slide-up delay-1">
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <h3>Send a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="inquiry-type">Type of Inquiry</label>
+                            <select id="inquiry-type" name="inquiry-type">
+                                <option value="">Select an option</option>
+                                <option value="speaking">Speaking Engagement</option>
+                                <option value="collaboration">Business Collaboration</option>
+                                <option value="podcast">Podcast Guest Application</option>
+                                <option value="wine">Wine Consultation</option>
+                                <option value="mentoring">Mentoring Request</option>
+                                <option value="media">Media/Interview</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project, event, or how I can help..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I'm Looking For Section -->
+    <section class="opportunities-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What I'm Looking For</h2>
+            <div class="opportunities-grid">
+                <div class="opportunity-card animate-slide-up">
+                    <div class="opportunity-icon">🎤</div>
+                    <h3>Speaking Opportunities</h3>
+                    <p>Keynotes on entrepreneurship, wine expertise, and personal development for conferences, corporate events, and educational institutions.</p>
+                </div>
+                
+                <div class="opportunity-card animate-slide-up delay-1">
+                    <div class="opportunity-icon">🎙️</div>
+                    <h3>Podcast Guests</h3>
+                    <p>Interesting people with compelling stories, unique expertise, or innovative ideas worth sharing with my audience.</p>
+                </div>
+                
+                <div class="opportunity-card animate-slide-up delay-2">
+                    <div class="opportunity-icon">🤝</div>
+                    <h3>Business Collaborations</h3>
+                    <p>Projects that align with my values and expertise in hospitality, technology, wine, or human potential development.</p>
+                </div>
+                
+                <div class="opportunity-card animate-slide-up delay-3">
+                    <div class="opportunity-icon">🍷</div>
+                    <h3>Wine Partnerships</h3>
+                    <p>Opportunities to share exceptional wines with new audiences through tastings, education, or curated experiences.</p>
+                </div>
+                
+                <div class="opportunity-card animate-slide-up delay-4">
+                    <div class="opportunity-icon">📈</div>
+                    <h3>Mentoring</h3>
+                    <p>Supporting other entrepreneurs on their journey, especially those working at the intersection of technology and traditional industries.</p>
+                </div>
+                
+                <div class="opportunity-card animate-slide-up delay-5">
+                    <div class="opportunity-icon">💡</div>
+                    <h3>Innovation Projects</h3>
+                    <p>Cutting-edge initiatives that bridge different industries and create meaningful impact for people and communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Follow My Journey</h2>
+            <p class="section-subtitle animate-on-scroll">Stay connected and see what I'm working on</p>
+            
+            <div class="social-grid">
+                <div class="social-card animate-slide-up">
+                    <div class="social-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>@paulhenri.official</p>
+                    <p>Behind-the-scenes moments, wine discoveries, and daily insights</p>
+                    <a href="https://instagram.com/paulhenri.official" target="_blank" class="btn btn-secondary">Follow</a>
+                </div>
+                
+                <div class="social-card animate-slide-up delay-1">
+                    <div class="social-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Paul-Henri Cuvelier</p>
+                    <p>Professional updates, thought leadership, and business insights</p>
+                    <a href="https://linkedin.com/in/paulhenricuvelier" target="_blank" class="btn btn-secondary">Connect</a>
+                </div>
+                
+                <div class="social-card animate-slide-up delay-2">
+                    <div class="social-icon">📺</div>
+                    <h3>YouTube</h3>
+                    <p>@paulhenricuvelier</p>
+                    <p>Video content, podcast highlights, and educational series</p>
+                    <a href="https://youtube.com/@paulhenricuvelier" target="_blank" class="btn btn-secondary">Subscribe</a>
+                </div>
+                
+                <div class="social-card animate-slide-up delay-3">
+                    <div class="social-icon">📱</div>
+                    <h3>TikTok</h3>
+                    <p>@paulhenricuvelier</p>
+                    <p>Quick insights, wine tips, and entrepreneurial wisdom</p>
+                    <a href="https://tiktok.com/@paulhenricuvelier" target="_blank" class="btn btn-secondary">Follow</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Availability -->
+    <section class="availability-section">
+        <div class="container">
+            <div class="availability-content animate-on-scroll">
+                <h2>Availability & Travel</h2>
+                <div class="availability-grid">
+                    <div class="availability-item">
+                        <h3>Speaking Engagements</h3>
+                        <p>Available worldwide for keynotes, workshops, and panel discussions. I regularly speak at conferences across Europe, North America, and beyond.</p>
+                    </div>
+                    
+                    <div class="availability-item">
+                        <h3>Consultation</h3>
+                        <p>Wine consultation and business mentoring available both in-person and virtually, depending on the scope and nature of the project.</p>
+                    </div>
+                    
+                    <div class="availability-item">
+                        <h3>Podcast Recordings</h3>
+                        <p>Can record remotely or in-person. My professional podcast studio is available for high-quality recordings in Belgium.</p>
+                    </div>
+                    
+                    <div class="availability-item">
+                        <h3>Response Time</h3>
+                        <p>I personally review all inquiries and typically respond within 48 hours. For time-sensitive opportunities, please indicate urgency in your subject line.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:paulhenri@pauldepierre.com">paulhenri@pauldepierre.com</a></p>
+                    <p>Available worldwide for speaking engagements</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="wtfiph.html">About</a>
+                    <a href="podcast.html">Podcasts</a>
+                    <a href="book.html">Speaking</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/paulhenri.official" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://linkedin.com/in/paulhenricuvelier" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://youtube.com/@paulhenricuvelier" target="_blank" rel="noopener">YouTube</a>
+                        <a href="https://facebook.com/paulhenricuvelier" target="_blank" rel="noopener">Facebook</a>
+                        <a href="https://tiktok.com/@paulhenricuvelier" target="_blank" rel="noopener">TikTok</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with latest insights and projects</p>
+                    <form class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Paul-Henri Cuvelier. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</body>
+</html>
