@@ -1,0 +1,185 @@
+# Jekyll Configuration for GitHub Pages
+# Paul-Henri Cuvelier Personal Website
+
+title: "Paul-Henri Cuvelier"
+description: "Bridging wine, technology, and human potential through meaningful conversations and exceptional experiences."
+baseurl: ""
+url: "https://paulhenricuvelier.com"
+
+# Author information
+author:
+  name: "Paul-Henri Cuvelier"
+  email: "paulhenri@pauldepierre.com"
+  bio: "Sommelier, Entrepreneur, Podcaster, Programmer"
+  location: "Worldwide"
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/paulhenri.official"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/paulhenricuvelier"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@paulhenricuvelier"
+
+# SEO settings
+lang: "en-US"
+locale: "en_US"
+
+# Social media usernames
+social:
+  name: "Paul-Henri Cuvelier"
+  links:
+    - "https://instagram.com/paulhenri.official"
+    - "https://linkedin.com/in/paulhenricuvelier"
+    - "https://youtube.com/@paulhenricuvelier"
+    - "https://facebook.com/paulhenricuvelier"
+    - "https://tiktok.com/@paulhenricuvelier"
+
+# Analytics
+google_analytics: "G-XXXXXXXXXX"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - tmp
+
+# Include files
+include:
+  - .htaccess
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site settings for SEO
+twitter:
+  username: "paulhenricuvelier"
+  card: "summary_large_image"
+
+facebook:
+  app_id: ""
+  publisher: "https://facebook.com/paulhenricuvelier"
+  admins: ""
+
+# Logo
+logo: "/assets/images/logo.png"
+
+# Timezone
+timezone: "Europe/Brussels"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  podcasts:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _podcasts
+  - scope:
+      path: ""
+      type: podcasts
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
